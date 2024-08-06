@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta tag -->
+
+
+    <title>Js/Jq</title>
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+    <!-- css links -->
+  </head>
+
+  <!-- body start -->
+  <body>
+
+<div class="container">
+  
+    <h2 class="text-danger" id="change_t">how to change text via js</h2>
+    <button class="btn btn-dark" onclick="changeText()">click me</button>
+
+    <h2 class="text-primary">How to show text</h2>
+    <p id="s_text"></p>
+    <button class="btn btn-dark" onclick="showText()">click me</button>
+
+    <h2>My first script language</h2>
+    <button class="btn btn-dark" onclick="firstScript()">click me</button>
+    <h2 id="f_script"></h2>
+
+    <h2>javascript is a?</h2>
+    <button class="btn btn-dark" onclick="programmingLanguage()">Answer</button>
+    <h2 id="p_language"></h2>
+
+
+    <!-- inline script -->
+
+    <h2 class="text-danger">Light on or off?</h2>
+    <button class="btn btn-dark" onclick="document.getElementById('bulb').src='images/pic_bulbon.gif'">on</button>
+    <img id="bulb" src="images/pic_bulboff.gif">
+    <button class="btn btn-dark" onclick="document.getElementById('bulb').src='images/pic_bulboff.gif'">off</button>
+
+
+    <!-- inline script -->
+
+
+
+    <h2 class="text-primary">javascript can hide content</h2>
+    <p id="hide">hide me plz!</p>
+    <button class="btn btn-dark" onclick="hideContent()">click me!</button>
+
+    <h2 class="text-secondary">change font size with js</h2>
+    <p id="font_size">change the font size.</p>
+    <button class="btn btn-dark" onclick="changeFontSize()">press</button> 
+
+    <h2>change font color</h2>
+    <h2 id="purple" style="text-transform: uppercase;">Purple</h2>
+    <button class="btn btn-warning" onclick="fontColor()">click it</button>
+
+
+
+
+
+</div>
+    
+    
+
+  <!-- js start -->
+   <script  src="js/bootstrap.bundle.min.js"></script>
+   <script  src="js/script.js"></script>
+  <!-- js end  -->
+
+  </body>
+  <!-- body end -->
+
+</html>
