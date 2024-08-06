@@ -1,2 +1,2 @@
 # first_javascript
-hw
+https://mushafiur.github.io/first_javascript/
